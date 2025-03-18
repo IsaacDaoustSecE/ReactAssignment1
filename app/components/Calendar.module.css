@@ -1,0 +1,137 @@
+.containerz {
+    padding: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    /* background-color: #1a1a1a; */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.description {
+    margin-bottom: 16px;
+    color: #a0a0a0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.navButton {
+    padding: 4px 12px;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #e0e0e0;
+}
+
+.navButton:hover {
+    background-color: #444444;
+}
+
+.currentMonth {
+    font-weight: 500;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.weekdayHeader {
+    text-align: center;
+    font-weight: 500;
+    padding: 8px 0;
+    color: #c0c0c0;
+}
+
+.calendarDay {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.emptyDay {
+    height: 48px;
+}
+
+.dayDefault {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    color: #e0e0e0;
+}
+
+.dayDefault:hover {
+    background-color: #3a3a3a;
+}
+
+.dayGoodSleep {
+    background-color: #1b412b;
+    border: 1px solid #276c45;
+    color: #a9f5c9;
+}
+
+.dayGoodSleep:hover {
+    background-color: #234f37;
+}
+
+.dayMissed {
+    background-color: #4e2c2c;
+    border: 1px solid #6b3d3d;
+    color: #ffb3b3;
+}
+
+.dayMissed:hover {
+    background-color: #5a3636;
+}
+
+.legend {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #c0c0c0;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+}
+
+.legendColor {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.legendGood {
+    background-color: #1b412b;
+    border: 1px solid #276c45;
+}
+
+.legendMissed {
+    background-color: #4e2c2c;
+    border: 1px solid #6b3d3d;
+}
+
+.legendDefault {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+}

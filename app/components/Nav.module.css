@@ -1,0 +1,47 @@
+a.primary {
+    background: var(--foreground);
+    color: var(--background);
+    gap: 8px;
+}
+
+a.secondary {
+    border-color: var(--gray-alpha-200);
+    min-width: 158px;
+}
+
+.root {
+    grid-row-start: 3;
+    display: flex;
+    gap: 24px;
+
+    width: 100%;
+
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.root a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.root a:hover {
+    text-decoration: underline;
+}
+
+.root img {
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    a.secondary {
+        min-width: auto;
+    }
+
+    .root {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
